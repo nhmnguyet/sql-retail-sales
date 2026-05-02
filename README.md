@@ -1,9 +1,6 @@
 # SQL Retail Sales Analysis
+This is a small practice exercise I did while getting acquainted with SQL and the PostgreSQL database management system. Since this project is at a basic level, my main goal was to hone my thinking skills in handling tables and formulating analytical questions from a raw dataset.
 
-Đây là một bài thực hành nhỏ của mình trong quá trình làm quen với ngôn ngữ SQL và hệ quản trị cơ sở dữ liệu PostgreSQL. Vì dự án này ở mức độ căn bản nên mục tiêu chính của mình là rèn luyện tư duy xử lý bảng và cách đặt câu hỏi phân tích từ một bộ dữ liệu thô.
-
-Nội dung chính mình đã thực hiện:
-
-Trước hết, mình bắt đầu với việc chuẩn hóa dữ liệu như sửa lỗi tên cột, xử lý các dòng trống (null) và cập nhật các thông tin còn thiếu. Sau khi dữ liệu đã sạch, mình tiến hành viết các câu truy vấn để giải quyết một số yêu cầu đơn giản như: thống kê doanh thu theo ngành hàng, tìm kiếm khách hàng chi tiêu nhiều nhất, hay phân loại ca làm việc dựa trên thời gian bán hàng.
-
-Tuy các thao tác chưa quá phức tạp, nhưng việc áp dụng những kiến thức như Group By, Window Functions (Rank) hay Case When vào một bài toán cụ thể đã giúp mình hiểu rõ hơn về cách dữ liệu vận hành. 
+My main tasks included:
+First, I started by normalizing the data, such as correcting column names, handling empty (null) rows, and updating missing information. 
+After the data was clean, I proceeded to write queries to solve some simple requirements such as: statistically analyzing sales by product category, finding the highest-spending customers, or classifying work shifts based on sales time.
