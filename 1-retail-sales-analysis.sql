@@ -66,8 +66,8 @@ SELECT COUNT(*) as total_orders FROM retail_sales
 SELECT COUNT(DISTINCT customer_id) as unique_customers FROM retail_sales
 --How many unique categories do we have? 
 SELECT COUNT(DISTINCT category) as unique_category FROM retail_sales
-SELECT DISTINCT category FROM retail_sales
-SELECT category FROM retail_sales GROUP BY 1
+--=SELECT DISTINCT category FROM retail_sales
+--=SELECT category FROM retail_sales GROUP BY 1
 
 --DATA ANALYSIS & BUSINESS KEY PROBLEMS & ANSWERS
 --Q.1: Write a SQL query to retrieve all columns for sales made on '2022-11-05'.
@@ -81,7 +81,7 @@ FROM retail_sales
 WHERE 
 	category = 'Clothing'
 	AND 
-	TO_CHAR(sale_date,'YYYY-MM')='2022-11' --(AND sale_date BETWEEN '2022-11-01' AND '2022-11-30')
+	TO_CHAR(sale_date,'YYYY-MM')='2022-11' 
 	AND
 	quantity>=4
 	
