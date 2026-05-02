@@ -4,6 +4,6 @@ This is a small practice exercise I did while getting acquainted with SQL and th
 
 My main tasks included:
 
-First, I started by normalizing the data, such as correcting column names, handling empty (null) rows, and updating missing information. 
+First, I started by normalizing the data, such as correcting column names, handling empty rows, and updating missing information. 
 
 After the data was clean, I proceeded to write queries to solve some simple requirements such as: statistically analyzing sales by product category, finding the highest-spending customers, or classifying work shifts based on sales time.
